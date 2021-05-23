@@ -1,0 +1,15 @@
+let a = +prompt("Введите число a");
+let b = +prompt("Введите число b");
+let c = prompt("Введите оператор");
+if (c === "+") {
+alert(a + b);
+}
+else if (c === "-") {
+alert(a - b);
+}
+else if (c === "*") {
+alert(a * b);
+}
+else if (c === "/") {
+alert(a / b);
+}
